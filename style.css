@@ -11,6 +11,7 @@ a{
     font-size:large;
 }
 nav a:hover{
-    color: black;
-    background-color:lightgoldenrodyellow
+    color:black;
+    background-color:lemonchiffon;
+    border-radius: 0.25em;
 }
