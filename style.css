@@ -11,7 +11,7 @@ a{
     font-size:large;
     /*border: 1px solid white;*/
 }
-nav a:hover{
+a:hover{
     color:black;
     background-color:lemonchiffon;
     border-radius: 0.25em;
