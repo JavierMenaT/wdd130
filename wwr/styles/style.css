@@ -1,15 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Fuzzy+Bubbles&display=swap');
+root{
+    --heading-font: 'Bangers', cursive;
+    --paragraph-font: 'Fuzzy Bubbles', cursive;
+}
+
+.home-title {
+    font-family: 'Bangers', 'Fuzzy Bubbles', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+            
 #content{
     max-width: 1600px;
     margin: 0 auto;
 }
 nav a{
     text-align: center;
-    color: black;
+    color:darkslategray;
     text-decoration: none;
+    padding: 35px;
 }
 nav a :hover{
     background-color: white;
-    color:limegreen
+    color:limegreen;
+}
+#logo_link{
+    padding-top: 5px;
 }
 #hero-msg h1{ 
     text-align: center;
@@ -26,23 +42,44 @@ nav a :hover{
 main section{
     text-align: center;
 }
+main section img{
+    box-sizing: border-box;
+}
 #background{
     height: 725px;
     background-color: darkseagreen;
 }
 body{
     background-color: beige;
+    font-family: 'Bangers', 'Fuzzy Bubbles', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    margin: 0;
+    color: darkslategray;
 }
 header{
     background-color: bisque;
 }
 .book {
-    background-color: azure;
+    background-color:bisque;
+    color:darkslategray;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .join{
-    background-color: azure;
+    background-color:bisque;
+    color:darkslategray;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book :hover{
     background-color: lemonchiffon;
@@ -53,14 +90,18 @@ header{
     color: black;
 }
 .msg{
-    background-color:darkcyan
+    background-color: #6f7364;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer{
     background-color:bisque;
-    color:black;
+    color:darkslategray;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a{
-    color:black;
+    color:darkslategray;
     text-decoration: none;
 }
 footer a :hover{
@@ -72,21 +113,33 @@ footer p{
 footer p a :hover{
     text-decoration: underline;
 }
+footer .social img{
+    padding-top: 15px;
+}
 .home-title{
-    color: blue;
+    color:burlywood;
 }
 h4{
-    color:cornflowerblue;
+    color:darkgrey;
 }
 .msg h2{
-    color:white
+    color:white;
 }
 .msg p{
-    color: white
+    color: white;
+    font-size: 2em;
+    padding-bottom: 15px;
 }
 .logo{
     width: 80px;
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid bisque;
 }
