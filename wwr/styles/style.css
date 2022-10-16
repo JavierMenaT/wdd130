@@ -90,7 +90,7 @@ header{
     color: black;
 }
 .msg{
-    background-color: #6f7364;
+    background-color:darkslategray;
     line-height: 1.5em;
     padding: 35px;
 }
@@ -120,14 +120,14 @@ footer .social img{
     color:burlywood;
 }
 h4{
-    color:darkgrey;
+    color:darkslategray;
 }
 .msg h2{
     color:white;
 }
 .msg p{
     color: white;
-    font-size: 2em;
+    font-size: .8em;
     padding-bottom: 15px;
 }
 .logo{
