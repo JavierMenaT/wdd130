@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Fuzzy+Bubbles&display=swap');
 root{
-    --heading-font: 'Bangers', cursive;
-    --paragraph-font: 'Fuzzy Bubbles', cursive;
+    --heading-font: "Bangers";
+    --paragraph-font: "Fuzzy Bubbles";
 }
 
 .home-title {
-    font-family: 'Bangers', 'Fuzzy Bubbles', sans-serif;
+    /*font-family: 'Bangers', 'Fuzzy Bubbles', sans-serif;*/
+    font-family: "Bangers";
     font-size: 2em;
     margin-top: 10px;
 }
@@ -19,10 +20,12 @@ nav a{
     color:darkslategray;
     text-decoration: none;
     padding: 35px;
+    font-family: "Bangers";
 }
-nav a :hover{
-    background-color: white;
-    color:limegreen;
+nav a:hover{
+    background-color: darkslategrey;
+    color: white;
+    border-radius: 0.1em;
 }
 #logo_link{
     padding-top: 5px;
@@ -75,7 +78,7 @@ main section img{
 }
 body{
     background-color: beige;
-    font-family: 'Bangers', 'Fuzzy Bubbles', sans-serif;
+    font-family:"Fuzzy Bubbles";
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -113,13 +116,13 @@ nav {
     margin-top: 50px;
     border-radius: 5px;
 }
-.book :hover{
-    background-color: lemonchiffon;
-    color: black;
+.book:hover{
+    background-color:darkslategray;
+    color: bisque;
 }
-.join :hover{
-    background-color: lemonchiffon;
-    color: black;
+.join:hover{
+    background-color:darkslategray;
+    color: bisque;
 }
 .msg{
     background-color:darkslategray;
@@ -138,15 +141,17 @@ footer{
 footer a{
     color:darkslategray;
     text-decoration: none;
+    font-family: "Bangers";
 }
-footer a :hover{
-    color: white;
+footer a:hover{
+    color:darkseagreen;
 }
 footer p{
     font-size: 1.2em;
+    font-family: "Bangers";
 }
-footer p a :hover{
-    text-decoration: underline;
+footer p a:hover{
+    text-decoration: none;
 }
 footer .social img{
     padding-top: 15px;
