@@ -26,6 +26,7 @@ nav a:hover{
     background-color: darkslategrey;
     color: white;
     border-radius: 0.1em;
+    transition: 0.5s;
 }
 #logo_link{
     padding-top: 5px;
@@ -119,10 +120,12 @@ nav {
 .book:hover{
     background-color:darkslategray;
     color: bisque;
+    transition: 0.5s;
 }
 .join:hover{
     background-color:darkslategray;
     color: bisque;
+    transition: 0.5s;
 }
 .msg{
     background-color:darkslategray;
@@ -223,7 +226,7 @@ h4{
         height: auto;
     }
     nav, footer {
-        flex-direction: column;
+       flex-direction: column;
     }
     nav a {
         display: block;
