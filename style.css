@@ -6,7 +6,7 @@ nav{
 
 a{
     color: white;
-    padding: 1em;
+    padding: 10px;
     text-decoration: none;
     font-size:large;
     /*border: 1px solid white;*/
@@ -15,4 +15,5 @@ a:hover{
     color:black;
     background-color:lemonchiffon;
     border-radius: 0.25em;
+    transition: 0.75s;
 }
